@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>To-Do List</title>
+
+	<link rel="stylesheet" href="do.css" />
+    
+</head>
+<body>
+	
+	<header>
+		<h1>To Do List</h1>
+		<form id="new-task-form">
+			<input 
+				type="text" 
+				name="new-task-input" 
+				id="new-task-input" 
+				placeholder="What do you have planned?" />
+			<input 
+				type="submit"
+				id="new-task-submit" 
+				value="Add task" />
+			<div class="left">
+				<img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dG8lMjBkbyUyMGxpc3QlMjBiYWNrZ3JvdW5kJTIwaW1hZ2VzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="">
+			</div>
+		</form>
+	</header>
+	<main>
+		<section class="task-list">
+			<h2>List of Tasks</h2>
+
+			<div id="tasks">
+
+			</div>
+		</section>
+	</main>
+
+    
+	<script src="list.js"></script>
+</body>
+</html>
